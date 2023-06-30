@@ -41,6 +41,174 @@
         "gust_kph": 15.5
       },
       "id": 1
+    },
+    {
+      "location": {
+        "name": "Miami",
+        "region": "Florida",
+        "country": "United States of America",
+        "lat": 25.77,
+        "lon": -80.19,
+        "tz_id": "America/New_York",
+        "localtime_epoch": 1688148684,
+        "localtime": "2023-06-30 14:11"
+      },
+      "current": {
+        "last_updated_epoch": 1688148000,
+        "last_updated": "2023-06-30 14:00",
+        "temp_c": 31.1,
+        "temp_f": 88,
+        "is_day": 1,
+        "condition": {
+          "text": "Patchy light rain with thunder",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/386.png",
+          "code": 1273
+        },
+        "wind_mph": 13.6,
+        "wind_kph": 22,
+        "wind_degree": 190,
+        "wind_dir": "S",
+        "pressure_mb": 1015,
+        "pressure_in": 29.98,
+        "precip_mm": 0,
+        "precip_in": 0,
+        "humidity": 68,
+        "cloud": 75,
+        "feelslike_c": 37.7,
+        "feelslike_f": 99.9,
+        "vis_km": 16,
+        "vis_miles": 9,
+        "uv": 8,
+        "gust_mph": 10.5,
+        "gust_kph": 16.9
+      },
+      "id": 2
+    },
+    {
+      "location": {
+        "name": "Miami",
+        "region": "Florida",
+        "country": "United States of America",
+        "lat": 25.77,
+        "lon": -80.19,
+        "tz_id": "America/New_York",
+        "localtime_epoch": 1688148684,
+        "localtime": "2023-06-30 14:11"
+      },
+      "current": {
+        "last_updated_epoch": 1688148000,
+        "last_updated": "2023-06-30 14:00",
+        "temp_c": 31.1,
+        "temp_f": 88,
+        "is_day": 1,
+        "condition": {
+          "text": "Patchy light rain with thunder",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/386.png",
+          "code": 1273
+        },
+        "wind_mph": 13.6,
+        "wind_kph": 22,
+        "wind_degree": 190,
+        "wind_dir": "S",
+        "pressure_mb": 1015,
+        "pressure_in": 29.98,
+        "precip_mm": 0,
+        "precip_in": 0,
+        "humidity": 68,
+        "cloud": 75,
+        "feelslike_c": 37.7,
+        "feelslike_f": 99.9,
+        "vis_km": 16,
+        "vis_miles": 9,
+        "uv": 8,
+        "gust_mph": 10.5,
+        "gust_kph": 16.9
+      },
+      "id": 3
+    },
+    {
+      "location": {
+        "name": "Miami",
+        "region": "Florida",
+        "country": "United States of America",
+        "lat": 25.77,
+        "lon": -80.19,
+        "tz_id": "America/New_York",
+        "localtime_epoch": 1688149213,
+        "localtime": "2023-06-30 14:20"
+      },
+      "current": {
+        "last_updated_epoch": 1688148900,
+        "last_updated": "2023-06-30 14:15",
+        "temp_c": 31.1,
+        "temp_f": 88,
+        "is_day": 1,
+        "condition": {
+          "text": "Patchy light rain with thunder",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/386.png",
+          "code": 1273
+        },
+        "wind_mph": 3.8,
+        "wind_kph": 6.1,
+        "wind_degree": 170,
+        "wind_dir": "S",
+        "pressure_mb": 1015,
+        "pressure_in": 29.97,
+        "precip_mm": 0,
+        "precip_in": 0,
+        "humidity": 61,
+        "cloud": 75,
+        "feelslike_c": 37.7,
+        "feelslike_f": 99.9,
+        "vis_km": 16,
+        "vis_miles": 9,
+        "uv": 8,
+        "gust_mph": 10.5,
+        "gust_kph": 16.9
+      },
+      "id": 4
+    },
+    {
+      "location": {
+        "name": "Miami",
+        "region": "Florida",
+        "country": "United States of America",
+        "lat": 25.77,
+        "lon": -80.19,
+        "tz_id": "America/New_York",
+        "localtime_epoch": 1688149618,
+        "localtime": "2023-06-30 14:26"
+      },
+      "current": {
+        "last_updated_epoch": 1688148900,
+        "last_updated": "2023-06-30 14:15",
+        "temp_c": 31.1,
+        "temp_f": 88,
+        "is_day": 1,
+        "condition": {
+          "text": "Patchy light rain with thunder",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/386.png",
+          "code": 1273
+        },
+        "wind_mph": 3.8,
+        "wind_kph": 6.1,
+        "wind_degree": 170,
+        "wind_dir": "S",
+        "pressure_mb": 1015,
+        "pressure_in": 29.97,
+        "precip_mm": 0,
+        "precip_in": 0,
+        "humidity": 61,
+        "cloud": 75,
+        "feelslike_c": 37.7,
+        "feelslike_f": 99.9,
+        "vis_km": 16,
+        "vis_miles": 9,
+        "uv": 8,
+        "gust_mph": 10.5,
+        "gust_kph": 16.9
+      },
+      "id": 5
     }
   ]
 }
