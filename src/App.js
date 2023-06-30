@@ -3,12 +3,10 @@ import './MainApp.css';
 import SearchBar from './components/SearchBar';
 import WeatherDisplay from './components/WeatherDisplay';
 
-
-
 function App() {
   const [weatherData, setWeatherData] = useState(null);
   const [isDarkMode, setIsDarkMode] = useState(false);
-  
+
   function getWeatherData(location) {
     const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 
@@ -49,11 +47,12 @@ function App() {
   }
 
   return (
-    <div className="App">
+    <div className={`App ${isDarkMode ? 'DarkMode' : ''}`}>
       <SearchBar getWeatherData={getWeatherData} className="search-bar" />
       {weatherData && (
         <WeatherDisplay data={weatherData} className="weather-display" />
       )}
+      <button onClick={handleDarkModeToggle}>Toggle Dark Mode</button>
     </div>
   );
 }
