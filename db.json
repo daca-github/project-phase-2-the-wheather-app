@@ -1,29 +1,3 @@
 {
-    "favorites": [
-      {
-        "id": 1,
-        "name": "Miami",
-        "condition": "Partly Cloudy"
-      },
-      {
-        "id": 2,
-        "name": "Orlando",
-        "condition": "Partly Cloudy"
-      },
-      {
-        "id": 3,
-        "name": "Tampa",
-        "condition": "Sunny"
-      },
-      {
-        "id": 4,
-        "name": "Jacksonville",
-        "condition": "Partly Cloudy"
-      },
-      {
-        "id": 5,
-        "name": "Gainesville",
-        "condition": "Partly Cloudy"
-      }
-    ]
+    "weather": []
   }
