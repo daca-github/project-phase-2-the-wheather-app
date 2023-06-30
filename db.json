@@ -1,3 +1,46 @@
 {
-    "weather": []
-  }
+  "weather": [
+    {
+      "location": {
+        "name": "Miami",
+        "region": "Florida",
+        "country": "United States of America",
+        "lat": 25.77,
+        "lon": -80.19,
+        "tz_id": "America/New_York",
+        "localtime_epoch": 1688147836,
+        "localtime": "2023-06-30 13:57"
+      },
+      "current": {
+        "last_updated_epoch": 1688147100,
+        "last_updated": "2023-06-30 13:45",
+        "temp_c": 31.1,
+        "temp_f": 88,
+        "is_day": 1,
+        "condition": {
+          "text": "Patchy light rain with thunder",
+          "icon": "//cdn.weatherapi.com/weather/64x64/day/386.png",
+          "code": 1273
+        },
+        "wind_mph": 13.6,
+        "wind_kph": 22,
+        "wind_degree": 190,
+        "wind_dir": "S",
+        "pressure_mb": 1015,
+        "pressure_in": 29.98,
+        "precip_mm": 0,
+        "precip_in": 0,
+        "humidity": 68,
+        "cloud": 75,
+        "feelslike_c": 36.6,
+        "feelslike_f": 97.8,
+        "vis_km": 16,
+        "vis_miles": 9,
+        "uv": 8,
+        "gust_mph": 9.6,
+        "gust_kph": 15.5
+      },
+      "id": 1
+    }
+  ]
+}
