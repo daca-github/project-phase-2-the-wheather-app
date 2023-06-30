@@ -42,7 +42,7 @@ function App() {
       });
   }
 
-  function handleDarkModeToggle() {
+  function toggleDarkMode() {
     setIsDarkMode(!isDarkMode);
   }
 
@@ -52,7 +52,9 @@ function App() {
       {weatherData && (
         <WeatherDisplay data={weatherData} className="weather-display" />
       )}
-      <button onClick={handleDarkModeToggle}>Toggle Dark Mode</button>
+      <button className="dark-mode-button" onClick={toggleDarkMode}>
+        {isDarkMode ? 'Light Mode' : 'Dark Mode'}
+      </button>
     </div>
   );
 }
