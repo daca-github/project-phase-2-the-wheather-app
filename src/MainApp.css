@@ -20,3 +20,8 @@
   flex-direction: column;
   align-items: center;
 }
+
+.DarMode {
+  background-color: #222;
+  color: #fff
+}
