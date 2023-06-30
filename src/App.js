@@ -3,11 +3,12 @@ import './MainApp.css';
 import SearchBar from './components/SearchBar';
 import WeatherDisplay from './components/WeatherDisplay';
 
-const [isDarkMode, setIsDarkMode] = useState(false);
+
 
 function App() {
   const [weatherData, setWeatherData] = useState(null);
-
+  const [isDarkMode, setIsDarkMode] = useState(false);
+  
   function getWeatherData(location) {
     const apiKey = process.env.REACT_APP_WEATHER_API_KEY;
 
@@ -41,6 +42,10 @@ function App() {
       .catch((error) => {
         console.error('Error saving weather data:', error);
       });
+  }
+
+  function handleDarkModeToggle() {
+    setIsDarkMode(!isDarkMode);
   }
 
   return (
