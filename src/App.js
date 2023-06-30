@@ -3,6 +3,8 @@ import './MainApp.css';
 import SearchBar from './components/SearchBar';
 import WeatherDisplay from './components/WeatherDisplay';
 
+const [isDarkMode, setIsDarkMode] = useState(false);
+
 function App() {
   const [weatherData, setWeatherData] = useState(null);
 
