@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-function SearchBar({ getWeatherData, className }) {
+function SearchBar({ getWeatherData, className, isDarkMode }) {
   const [location, setLocation] = useState('');
 
   function handleSubmit(e) {
@@ -12,7 +12,7 @@ function SearchBar({ getWeatherData, className }) {
   }
 
   return (
-    <form onSubmit={handleSubmit} className={className}>
+    <form onSubmit={handleSubmit} className={`${className} ${isDarkMode ? 'DarkMode' : ''}`}>
       <input
         type="text"
         value={location}
