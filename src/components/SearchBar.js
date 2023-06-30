@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './SearchBar.css';
 
 function SearchBar({ getWeatherData, className, isDarkMode }) {
   const [location, setLocation] = useState('');
@@ -18,8 +19,11 @@ function SearchBar({ getWeatherData, className, isDarkMode }) {
         value={location}
         onChange={(e) => setLocation(e.target.value)}
         placeholder="Enter a city..."
+        className="search-input"
       />
-      <button type="submit">Get Weather</button>
+      <button type="submit" className="search-button">
+        Get Weather
+      </button>
     </form>
   );
 }
