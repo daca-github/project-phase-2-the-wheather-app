@@ -31,9 +31,7 @@ To get started with the weather app, follow these steps:
 1. Enter a city name in the search bar.
 2. Click on the "Get Weather" button to fetch and display the current weather information for the specified location.
 3. Optionally, toggle the dark mode switch to enable or disable dark mode.
-4. As you type in the search bar, the app will provide suggestions for cities with similar names.
-5. Click on a suggestion to populate the search bar with the selected city name.
-6. The app will automatically save the weather data to a local JSON server using a POST request to the `db.json` file.
+4. The app will automatically save the weather data to a local JSON server using a POST request to the `db.json` file.
 
 ## Saving Weather Data
 
