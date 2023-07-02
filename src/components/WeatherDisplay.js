@@ -10,6 +10,7 @@ function WeatherDisplay({ data }) {
       <p>Feels like: {data.current.feelslike_f}°F</p>
       <p>Wind: {data.current.wind_kph} kph direction {data.current.wind_dir}</p>
       <p>Humidity: {data.current.humidity}%</p>
+      <p>Will it rain? {data.current.precip_in > 0 ? 'Yes' : 'No'}</p>
     </div>
   );
 }
