@@ -24,7 +24,7 @@
 .DarkMode {
   background-color: #222;
   color: #fff;
-  width: 100%; /* Set the width to 100% */
+  width: 100%; 
 }
 
 .DarkMode .App-header {
