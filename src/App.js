@@ -46,9 +46,23 @@ function App() {
     setIsDarkMode(!isDarkMode);
   }
 
+  function goHome() {
+    setWeatherData(null);
+  }
+
   return (
     <div className={`App ${isDarkMode ? 'DarkMode' : ''}`}>
-      <SearchBar getWeatherData={getWeatherData} className="search-bar" />
+      {!weatherData ? (
+        <div>
+          <h1>Welcome to the Weather App</h1>
+          <p>Enter a city to get the current weather</p>
+        </div>
+      ) : (
+        <button className="home-button" onClick={goHome}>
+          Home
+        </button>
+      )}
+      <SearchBar getWeatherData={getWeatherData} className="search-bar" isDarkMode={isDarkMode} />
       {weatherData && (
         <WeatherDisplay data={weatherData} className="weather-display" />
       )}
